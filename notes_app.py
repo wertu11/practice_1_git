@@ -211,7 +211,7 @@ class NoteApp:
             else:
                 print("Изменений не внесено.")
         except ValueError:
-            print("Некорректный ID!")
+            print("Некорректный note_ID!")
     
     def delete_note(self) -> None:
         """Удаляет заметку"""
